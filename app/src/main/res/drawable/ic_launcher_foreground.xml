@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A measurement line: hollow start point, three evenly spaced ticks, highlighted endpoint. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Line -->
+    <path
+        android:pathData="M36,54H74"
+        android:strokeWidth="2.5"
+        android:strokeColor="@color/mp_launcher_line"
+        android:strokeLineCap="round" />
+    <!-- Start point (hollow) -->
+    <path
+        android:pathData="M36,54m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0"
+        android:strokeWidth="2.5"
+        android:strokeColor="@color/mp_launcher_line"
+        android:fillColor="@color/mp_launcher_background" />
+    <!-- Marks -->
+    <path
+        android:pathData="M45.5,47V61M55,47V61M64.5,47V61"
+        android:strokeWidth="2.5"
+        android:strokeColor="@color/mp_launcher_accent"
+        android:strokeLineCap="round" />
+    <!-- Endpoint -->
+    <path
+        android:pathData="M74,54m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0"
+        android:fillColor="@color/mp_launcher_accent" />
+</vector>

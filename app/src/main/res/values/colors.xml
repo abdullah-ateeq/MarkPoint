@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mp_window_background">#FFF7F5F0</color>
+    <color name="mp_launcher_background">#FF1A1E20</color>
+    <color name="mp_launcher_line">#FFE4E2DD</color>
+    <color name="mp_launcher_accent">#FF7CC7BE</color>
+</resources>
